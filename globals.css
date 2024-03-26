@@ -28,7 +28,7 @@
   
   .input-wrapper {
     flex: 1;
-    margin-right: 10px; /* Adiciona um espaço entre os inputs */
+    margin-right: 10px; 
   }
   
   label {
@@ -41,11 +41,11 @@
   }
   
   input {
-    width: calc(50% - 5px); /* Divide o espaço disponível igualmente entre os inputs e reduz o tamanho */
+    width: calc(50% - 5px); 
     padding: 10px;
     margin-left: 150px;
     margin-top: 5px;
-    margin-bottom: 5px; /* Adiciona um espaço abaixo do input */
+    margin-bottom: 5px; 
     border-radius: 50px;
     border: 5px solid #f5a9ea;
   }
@@ -56,8 +56,8 @@
   }
   
   .button-wrapper {
-    text-align: center; /* Centraliza o botão */
-    margin-top: 50px; /* Adiciona um espaço entre os inputs e o botão */
+    text-align: center; 
+    margin-top: 50px; 
   }
   
   button {
