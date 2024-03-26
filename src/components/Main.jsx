@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDom from 'react-dom/client'
-import App from './App.jsx'
+export default function Main(){
+    const [nome, setNome] = useState("");
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-)
+    return(
+        <main>
+            <input type="text" name="" id="" onChange={(event)=> setNome(event.target.value)}
+            />
 
+            {nome}
+        </main>
+    );
+}
