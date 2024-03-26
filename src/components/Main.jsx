@@ -34,6 +34,9 @@ export default function Main(){
                     />
                 </div>
             </form>
+            <div className='button-wrapper'>
+                 <button type="button" onClick={registrar}>Salvar</button>
+                </div>
         </main>
     );
 }
