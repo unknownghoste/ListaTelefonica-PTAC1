@@ -5,10 +5,23 @@ export default function Main(){
     const [nome, setNome] = useState("");
     const [tel, setTel] = useState("");
     const [listaContatos, setListaContatos] = useState([]);
+    
 
-    const registrar = () => {
-        alert("React.js");
+    const registrar = (event) => {
+        event.preventDefault();
+        setNome("");
+        setTel("");
+        
+
+        setListaContatos([...listaContatos,
+            {
+                nomeSalvo: nome,
+                telefoneSalvo: tel
+            }
+        ]);
     };
+
+    console.table(listaContatos);
 
     return(
         <main>
