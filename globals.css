@@ -1,0 +1,19 @@
+.header {
+    background-color: purple;
+    color: white;
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.footer {
+    background-color: #330a3a;
+    color: white;
+    padding: 10px 0; 
+    position: absolute; 
+    width: 99%; 
+    bottom: 0; 
+    text-align: center;
+  }
+  
+  
+  
