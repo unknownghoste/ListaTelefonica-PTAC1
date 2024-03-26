@@ -15,5 +15,38 @@
     text-align: center;
   }
   
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
   
+  .input-wrapper {
+    flex: 1;
+    margin-right: 10px; /* Adiciona um espaço entre os inputs */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+  }
+  
+  input {
+    width: calc(50% - 5px); /* Divide o espaço disponível igualmente entre os inputs e reduz o tamanho */
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px; /* Adiciona um espaço abaixo do input */
+    border-radius: 50px;
+    border: 5px solid #f5a9ea;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
   
