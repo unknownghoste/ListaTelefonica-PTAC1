@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '/globals.css'; // Importe seus estilos CSS aqui
+import '/globals.css'; 
 
 export default function Main(){
     const [nome, setNome] = useState("");
