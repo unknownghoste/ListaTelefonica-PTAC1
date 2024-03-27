@@ -3,12 +3,12 @@ import '/globals.css';
 
 export default function Main(){
     const [nome, setNome] = useState("");
-    const [tel, setTel] = useState("");
-    const [listaContatos, setListaContatos] = useState([]);
+    const [tel, setTel] = useState();
+    const [listaContatos, setListaContatos] = useState([]); //Colchetes representa estado vazio.
     
 
     const registrar = (event) => {
-        event.preventDefault();
+        event.preventDefault(); 
         setNome("");
         setTel("");
         
@@ -43,9 +43,15 @@ export default function Main(){
                         name="tel"
                         id="tel" 
                         value={tel}
-                        onChange={(event)=> setTel(event.target.value)}
+                        onChange={(event)=> setTel(event.target.value)} //onChange é responsável por disparar uma função a cada mudança no input. event.target.value = É o valor digitado na input.
                     />
                 </div>
+             
+                <div className='info'>
+                <h6> Nome: {nome}, Telefone: {tel} </h6>
+                </div>
+                
+                
             </form>
             <div className='button-wrapper'>
                  <button type="button" onClick={registrar}>Salvar</button>

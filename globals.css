@@ -25,6 +25,15 @@
     flex-wrap: wrap;
     
   }
+
+  .info {
+    position:absolute;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 260px;
+     margin-left: 650px;
+     color: #974c97;
+  }
   
   .input-wrapper {
     flex: 1;
