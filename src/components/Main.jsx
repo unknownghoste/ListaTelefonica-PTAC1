@@ -49,6 +49,7 @@ export default function Main(){
              
                 <div className='info'>
                 <h6> Nome: {nome}, Telefone: {tel} </h6>
+                
                 </div>
                 
                 
